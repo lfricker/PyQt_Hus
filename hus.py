@@ -119,6 +119,7 @@ class Hus(HusMainUi):
             self.state = "ready"
 
    def move(self, player, start_pos):
+      moveDelayS = 0.1
       handstones = 0
       if player == "a":
          self.myButtons = self.a_buttons
@@ -147,7 +148,7 @@ class Hus(HusMainUi):
 
             self.edithandstones(-1)
             self.app.processEvents()
-            time.sleep(0.5)
+            time.sleep(moveDelayS)
             self.setButtonColor(self.myButtons[currentpos], "basic")
          
          if int(self.myButtons[currentpos].text()) < 2:
@@ -171,14 +172,16 @@ class Hus(HusMainUi):
             # check if one got only fields with 0 or 1. if so other player wins
             if not b_save:
                print("A wins!")
+               self.l_aWins.setText(str( int(self.l_aWins.text()) + 1))
                self.startcb()
             if not a_save:
                print("B wins!")
+               self.l_bWins.setText(str( int(self.l_bWins.text()) + 1))
                self.startcb()
 
             self.label_5.setText(str(a_ammount))
             self.label_6.setText(str(b_ammount))
-            time.sleep(0.5)
+            time.sleep(moveDelayS)
             self.setButtonColor(self.myButtons[currentpos], "basic")
             return
          # try to rob
@@ -187,7 +190,7 @@ class Hus(HusMainUi):
          self.setButtonColor(self.myButtons[currentpos], "pickup")
          print("adding ",int(self.myButtons[currentpos].text())," stones from current field. Total of ", handstones, " available now")
          self.myButtons[currentpos].setText("0")
-         time.sleep(0.5)
+         time.sleep(moveDelayS)
          self.setButtonColor(self.myButtons[currentpos], "basic")
 
    def robbery(self, player, position):

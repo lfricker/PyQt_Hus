@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '.\Hus_Main.ui'
+# Form implementation generated from reading ui file 'Hus_Main.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.2
 #
@@ -14,666 +14,19 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
-        Dialog.resize(843, 369)
-        self.label_3 = QtWidgets.QLabel(Dialog)
-        self.label_3.setGeometry(QtCore.QRect(30, 80, 51, 21))
-        self.label_3.setObjectName("label_3")
-        self.pb_start = QtWidgets.QPushButton(Dialog)
-        self.pb_start.setGeometry(QtCore.QRect(720, 170, 101, 31))
-        self.pb_start.setObjectName("pb_start")
-        self.pb_b14 = QtWidgets.QPushButton(Dialog)
-        self.pb_b14.setGeometry(QtCore.QRect(190, 270, 61, 61))
-        self.pb_b14.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b14.setObjectName("pb_b14")
-        self.pb_b07 = QtWidgets.QPushButton(Dialog)
-        self.pb_b07.setGeometry(QtCore.QRect(610, 200, 61, 61))
-        self.pb_b07.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b07.setObjectName("pb_b07")
-        self.pb_b05 = QtWidgets.QPushButton(Dialog)
-        self.pb_b05.setGeometry(QtCore.QRect(470, 200, 61, 61))
-        self.pb_b05.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b05.setObjectName("pb_b05")
-        self.label_6 = QtWidgets.QLabel(Dialog)
-        self.label_6.setGeometry(QtCore.QRect(720, 290, 51, 21))
-        self.label_6.setObjectName("label_6")
-        self.pb_a08 = QtWidgets.QPushButton(Dialog)
-        self.pb_a08.setGeometry(QtCore.QRect(610, 100, 61, 61))
-        self.pb_a08.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a08.setObjectName("pb_a08")
-        self.pb_b13 = QtWidgets.QPushButton(Dialog)
-        self.pb_b13.setGeometry(QtCore.QRect(260, 270, 61, 61))
-        self.pb_b13.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b13.setObjectName("pb_b13")
-        self.pb_b09 = QtWidgets.QPushButton(Dialog)
-        self.pb_b09.setGeometry(QtCore.QRect(540, 270, 61, 61))
-        self.pb_b09.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b09.setObjectName("pb_b09")
-        self.pb_a15 = QtWidgets.QPushButton(Dialog)
-        self.pb_a15.setGeometry(QtCore.QRect(120, 100, 61, 61))
-        self.pb_a15.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a15.setObjectName("pb_a15")
-        self.pb_b03 = QtWidgets.QPushButton(Dialog)
-        self.pb_b03.setGeometry(QtCore.QRect(330, 200, 61, 61))
-        self.pb_b03.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b03.setObjectName("pb_b03")
-        self.pb_a00 = QtWidgets.QPushButton(Dialog)
-        self.pb_a00.setGeometry(QtCore.QRect(120, 30, 61, 61))
-        self.pb_a00.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a00.setObjectName("pb_a00")
-        self.pb_a12 = QtWidgets.QPushButton(Dialog)
-        self.pb_a12.setGeometry(QtCore.QRect(330, 100, 61, 61))
-        self.pb_a12.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a12.setObjectName("pb_a12")
-        self.pb_a10 = QtWidgets.QPushButton(Dialog)
-        self.pb_a10.setGeometry(QtCore.QRect(470, 100, 61, 61))
-        self.pb_a10.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a10.setObjectName("pb_a10")
-        self.label_4 = QtWidgets.QLabel(Dialog)
-        self.label_4.setGeometry(QtCore.QRect(30, 250, 51, 21))
-        self.label_4.setObjectName("label_4")
-        self.pb_a09 = QtWidgets.QPushButton(Dialog)
-        self.pb_a09.setGeometry(QtCore.QRect(540, 100, 61, 61))
-        self.pb_a09.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a09.setObjectName("pb_a09")
-        self.pb_a01 = QtWidgets.QPushButton(Dialog)
-        self.pb_a01.setGeometry(QtCore.QRect(190, 30, 61, 61))
-        self.pb_a01.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a01.setObjectName("pb_a01")
-        self.pb_a04 = QtWidgets.QPushButton(Dialog)
-        self.pb_a04.setGeometry(QtCore.QRect(400, 30, 61, 61))
-        self.pb_a04.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a04.setObjectName("pb_a04")
-        self.label = QtWidgets.QLabel(Dialog)
-        self.label.setGeometry(QtCore.QRect(30, 50, 51, 21))
-        self.label.setObjectName("label")
-        self.pb_b10 = QtWidgets.QPushButton(Dialog)
-        self.pb_b10.setGeometry(QtCore.QRect(470, 270, 61, 61))
-        self.pb_b10.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b10.setObjectName("pb_b10")
-        self.pb_b11 = QtWidgets.QPushButton(Dialog)
-        self.pb_b11.setGeometry(QtCore.QRect(400, 270, 61, 61))
-        self.pb_b11.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b11.setObjectName("pb_b11")
-        self.pb_b02 = QtWidgets.QPushButton(Dialog)
-        self.pb_b02.setGeometry(QtCore.QRect(260, 200, 61, 61))
-        self.pb_b02.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b02.setObjectName("pb_b02")
-        self.pb_a02 = QtWidgets.QPushButton(Dialog)
-        self.pb_a02.setGeometry(QtCore.QRect(260, 30, 61, 61))
-        self.pb_a02.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a02.setObjectName("pb_a02")
-        self.pb_a07 = QtWidgets.QPushButton(Dialog)
-        self.pb_a07.setGeometry(QtCore.QRect(610, 30, 61, 61))
-        self.pb_a07.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a07.setObjectName("pb_a07")
-        self.pb_b12 = QtWidgets.QPushButton(Dialog)
-        self.pb_b12.setGeometry(QtCore.QRect(330, 270, 61, 61))
-        self.pb_b12.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b12.setObjectName("pb_b12")
-        self.pb_b01 = QtWidgets.QPushButton(Dialog)
-        self.pb_b01.setGeometry(QtCore.QRect(190, 200, 61, 61))
-        self.pb_b01.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b01.setObjectName("pb_b01")
-        self.pb_a06 = QtWidgets.QPushButton(Dialog)
-        self.pb_a06.setGeometry(QtCore.QRect(540, 30, 61, 61))
-        self.pb_a06.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a06.setObjectName("pb_a06")
-        self.label_5 = QtWidgets.QLabel(Dialog)
-        self.label_5.setGeometry(QtCore.QRect(720, 90, 51, 21))
-        self.label_5.setObjectName("label_5")
-        self.pb_b04 = QtWidgets.QPushButton(Dialog)
-        self.pb_b04.setGeometry(QtCore.QRect(400, 200, 61, 61))
-        self.pb_b04.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b04.setObjectName("pb_b04")
-        self.pb_a14 = QtWidgets.QPushButton(Dialog)
-        self.pb_a14.setGeometry(QtCore.QRect(190, 100, 61, 61))
-        self.pb_a14.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a14.setObjectName("pb_a14")
-        self.pb_b06 = QtWidgets.QPushButton(Dialog)
-        self.pb_b06.setGeometry(QtCore.QRect(540, 200, 61, 61))
-        self.pb_b06.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b06.setObjectName("pb_b06")
-        self.pb_b00 = QtWidgets.QPushButton(Dialog)
-        self.pb_b00.setGeometry(QtCore.QRect(120, 200, 61, 61))
-        self.pb_b00.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b00.setObjectName("pb_b00")
-        self.label_2 = QtWidgets.QLabel(Dialog)
-        self.label_2.setGeometry(QtCore.QRect(30, 220, 51, 21))
-        self.label_2.setObjectName("label_2")
-        self.label_8 = QtWidgets.QLabel(Dialog)
-        self.label_8.setGeometry(QtCore.QRect(720, 60, 51, 21))
-        self.label_8.setObjectName("label_8")
-        self.pb_a05 = QtWidgets.QPushButton(Dialog)
-        self.pb_a05.setGeometry(QtCore.QRect(470, 30, 61, 61))
-        self.pb_a05.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a05.setObjectName("pb_a05")
-        self.pb_b08 = QtWidgets.QPushButton(Dialog)
-        self.pb_b08.setGeometry(QtCore.QRect(610, 270, 61, 61))
-        self.pb_b08.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_b08.setObjectName("pb_b08")
-        self.pb_a11 = QtWidgets.QPushButton(Dialog)
-        self.pb_a11.setGeometry(QtCore.QRect(400, 100, 61, 61))
-        self.pb_a11.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a11.setObjectName("pb_a11")
-        self.pb_a03 = QtWidgets.QPushButton(Dialog)
-        self.pb_a03.setGeometry(QtCore.QRect(330, 30, 61, 61))
-        self.pb_a03.setStyleSheet("QPushButton {\n"
-"color: #333;\n"
-"border: 2px solid #555;\n"
-"border-radius: 30px;\n"
-"border-style: outset;\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
-");\n"
-"padding: 5px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"background: qradialgradient(\n"
-"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
-"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
-");\n"
-"}")
-        self.pb_a03.setObjectName("pb_a03")
-        self.label_7 = QtWidgets.QLabel(Dialog)
-        self.label_7.setGeometry(QtCore.QRect(720, 260, 51, 21))
-        self.label_7.setObjectName("label_7")
+        Dialog.resize(712, 335)
+        self.gridLayout_2 = QtWidgets.QGridLayout(Dialog)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.gridLayout = QtWidgets.QGridLayout()
+        self.gridLayout.setObjectName("gridLayout")
         self.pb_a13 = QtWidgets.QPushButton(Dialog)
-        self.pb_a13.setGeometry(QtCore.QRect(260, 100, 61, 61))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a13.sizePolicy().hasHeightForWidth())
+        self.pb_a13.setSizePolicy(sizePolicy)
+        self.pb_a13.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a13.setBaseSize(QtCore.QSize(60, 60))
         self.pb_a13.setStyleSheet("QPushButton {\n"
 "color: #333;\n"
 "border: 2px solid #555;\n"
@@ -693,8 +46,255 @@ class Ui_Dialog(object):
 ");\n"
 "}")
         self.pb_a13.setObjectName("pb_a13")
+        self.gridLayout.addWidget(self.pb_a13, 2, 3, 2, 1)
+        self.pb_a08 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a08.sizePolicy().hasHeightForWidth())
+        self.pb_a08.setSizePolicy(sizePolicy)
+        self.pb_a08.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a08.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a08.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a08.setObjectName("pb_a08")
+        self.gridLayout.addWidget(self.pb_a08, 2, 8, 2, 1)
+        self.pb_b01 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b01.sizePolicy().hasHeightForWidth())
+        self.pb_b01.setSizePolicy(sizePolicy)
+        self.pb_b01.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b01.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b01.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b01.setObjectName("pb_b01")
+        self.gridLayout.addWidget(self.pb_b01, 5, 2, 2, 1)
+        self.pb_a03 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a03.sizePolicy().hasHeightForWidth())
+        self.pb_a03.setSizePolicy(sizePolicy)
+        self.pb_a03.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a03.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a03.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a03.setObjectName("pb_a03")
+        self.gridLayout.addWidget(self.pb_a03, 0, 4, 2, 1)
+        self.pb_a12 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a12.sizePolicy().hasHeightForWidth())
+        self.pb_a12.setSizePolicy(sizePolicy)
+        self.pb_a12.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a12.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a12.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a12.setObjectName("pb_a12")
+        self.gridLayout.addWidget(self.pb_a12, 2, 4, 2, 1)
+        self.label_6 = QtWidgets.QLabel(Dialog)
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.label_6.setFont(font)
+        self.label_6.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_6.setObjectName("label_6")
+        self.gridLayout.addWidget(self.label_6, 7, 9, 1, 1)
+        self.pb_b07 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b07.sizePolicy().hasHeightForWidth())
+        self.pb_b07.setSizePolicy(sizePolicy)
+        self.pb_b07.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b07.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b07.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b07.setObjectName("pb_b07")
+        self.gridLayout.addWidget(self.pb_b07, 5, 8, 2, 1)
+        self.pb_b02 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b02.sizePolicy().hasHeightForWidth())
+        self.pb_b02.setSizePolicy(sizePolicy)
+        self.pb_b02.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b02.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b02.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b02.setObjectName("pb_b02")
+        self.gridLayout.addWidget(self.pb_b02, 5, 3, 2, 1)
+        self.pb_a04 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a04.sizePolicy().hasHeightForWidth())
+        self.pb_a04.setSizePolicy(sizePolicy)
+        self.pb_a04.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a04.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a04.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a04.setObjectName("pb_a04")
+        self.gridLayout.addWidget(self.pb_a04, 0, 5, 2, 1)
+        self.pb_start = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_start.sizePolicy().hasHeightForWidth())
+        self.pb_start.setSizePolicy(sizePolicy)
+        self.pb_start.setObjectName("pb_start")
+        self.gridLayout.addWidget(self.pb_start, 4, 9, 1, 1)
+        self.pb_b08 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b08.sizePolicy().hasHeightForWidth())
+        self.pb_b08.setSizePolicy(sizePolicy)
+        self.pb_b08.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b08.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b08.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b08.setObjectName("pb_b08")
+        self.gridLayout.addWidget(self.pb_b08, 7, 8, 2, 1)
         self.pb_b15 = QtWidgets.QPushButton(Dialog)
-        self.pb_b15.setGeometry(QtCore.QRect(120, 270, 61, 61))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b15.sizePolicy().hasHeightForWidth())
+        self.pb_b15.setSizePolicy(sizePolicy)
+        self.pb_b15.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b15.setBaseSize(QtCore.QSize(60, 60))
         self.pb_b15.setStyleSheet("QPushButton {\n"
 "color: #333;\n"
 "border: 2px solid #555;\n"
@@ -714,13 +314,688 @@ class Ui_Dialog(object):
 ");\n"
 "}")
         self.pb_b15.setObjectName("pb_b15")
+        self.gridLayout.addWidget(self.pb_b15, 7, 1, 2, 1)
         self.l_handstones = QtWidgets.QLabel(Dialog)
-        self.l_handstones.setGeometry(QtCore.QRect(120, 160, 61, 41))
         font = QtGui.QFont()
         font.setPointSize(12)
         self.l_handstones.setFont(font)
         self.l_handstones.setAlignment(QtCore.Qt.AlignCenter)
         self.l_handstones.setObjectName("l_handstones")
+        self.gridLayout.addWidget(self.l_handstones, 4, 1, 1, 1)
+        self.pb_a11 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a11.sizePolicy().hasHeightForWidth())
+        self.pb_a11.setSizePolicy(sizePolicy)
+        self.pb_a11.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a11.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a11.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a11.setObjectName("pb_a11")
+        self.gridLayout.addWidget(self.pb_a11, 2, 5, 2, 1)
+        self.pb_b06 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b06.sizePolicy().hasHeightForWidth())
+        self.pb_b06.setSizePolicy(sizePolicy)
+        self.pb_b06.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b06.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b06.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b06.setObjectName("pb_b06")
+        self.gridLayout.addWidget(self.pb_b06, 5, 7, 2, 1)
+        self.pb_a00 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a00.sizePolicy().hasHeightForWidth())
+        self.pb_a00.setSizePolicy(sizePolicy)
+        self.pb_a00.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a00.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a00.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a00.setObjectName("pb_a00")
+        self.gridLayout.addWidget(self.pb_a00, 0, 1, 2, 1)
+        self.pb_a09 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a09.sizePolicy().hasHeightForWidth())
+        self.pb_a09.setSizePolicy(sizePolicy)
+        self.pb_a09.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a09.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a09.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a09.setObjectName("pb_a09")
+        self.gridLayout.addWidget(self.pb_a09, 2, 7, 2, 1)
+        self.pb_b09 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b09.sizePolicy().hasHeightForWidth())
+        self.pb_b09.setSizePolicy(sizePolicy)
+        self.pb_b09.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b09.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b09.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b09.setObjectName("pb_b09")
+        self.gridLayout.addWidget(self.pb_b09, 7, 7, 2, 1)
+        self.pb_b10 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b10.sizePolicy().hasHeightForWidth())
+        self.pb_b10.setSizePolicy(sizePolicy)
+        self.pb_b10.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b10.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b10.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b10.setObjectName("pb_b10")
+        self.gridLayout.addWidget(self.pb_b10, 7, 6, 2, 1)
+        self.pb_a06 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a06.sizePolicy().hasHeightForWidth())
+        self.pb_a06.setSizePolicy(sizePolicy)
+        self.pb_a06.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a06.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a06.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a06.setObjectName("pb_a06")
+        self.gridLayout.addWidget(self.pb_a06, 0, 7, 2, 1)
+        self.pb_b05 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b05.sizePolicy().hasHeightForWidth())
+        self.pb_b05.setSizePolicy(sizePolicy)
+        self.pb_b05.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b05.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b05.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b05.setObjectName("pb_b05")
+        self.gridLayout.addWidget(self.pb_b05, 5, 6, 2, 1)
+        self.pb_a02 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a02.sizePolicy().hasHeightForWidth())
+        self.pb_a02.setSizePolicy(sizePolicy)
+        self.pb_a02.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a02.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a02.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a02.setObjectName("pb_a02")
+        self.gridLayout.addWidget(self.pb_a02, 0, 3, 2, 1)
+        self.pb_a01 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a01.sizePolicy().hasHeightForWidth())
+        self.pb_a01.setSizePolicy(sizePolicy)
+        self.pb_a01.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a01.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a01.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a01.setObjectName("pb_a01")
+        self.gridLayout.addWidget(self.pb_a01, 0, 2, 2, 1)
+        self.pb_b03 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b03.sizePolicy().hasHeightForWidth())
+        self.pb_b03.setSizePolicy(sizePolicy)
+        self.pb_b03.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b03.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b03.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b03.setObjectName("pb_b03")
+        self.gridLayout.addWidget(self.pb_b03, 5, 4, 2, 1)
+        self.l_aWins = QtWidgets.QLabel(Dialog)
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.l_aWins.setFont(font)
+        self.l_aWins.setAlignment(QtCore.Qt.AlignCenter)
+        self.l_aWins.setObjectName("l_aWins")
+        self.gridLayout.addWidget(self.l_aWins, 1, 0, 2, 1)
+        self.pb_a14 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a14.sizePolicy().hasHeightForWidth())
+        self.pb_a14.setSizePolicy(sizePolicy)
+        self.pb_a14.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a14.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a14.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a14.setObjectName("pb_a14")
+        self.gridLayout.addWidget(self.pb_a14, 2, 2, 2, 1)
+        self.l_bWins = QtWidgets.QLabel(Dialog)
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.l_bWins.setFont(font)
+        self.l_bWins.setAlignment(QtCore.Qt.AlignCenter)
+        self.l_bWins.setObjectName("l_bWins")
+        self.gridLayout.addWidget(self.l_bWins, 6, 0, 2, 1)
+        self.pb_b11 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b11.sizePolicy().hasHeightForWidth())
+        self.pb_b11.setSizePolicy(sizePolicy)
+        self.pb_b11.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b11.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b11.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b11.setObjectName("pb_b11")
+        self.gridLayout.addWidget(self.pb_b11, 7, 5, 2, 1)
+        self.pb_a05 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a05.sizePolicy().hasHeightForWidth())
+        self.pb_a05.setSizePolicy(sizePolicy)
+        self.pb_a05.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a05.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a05.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a05.setObjectName("pb_a05")
+        self.gridLayout.addWidget(self.pb_a05, 0, 6, 2, 1)
+        self.pb_b00 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b00.sizePolicy().hasHeightForWidth())
+        self.pb_b00.setSizePolicy(sizePolicy)
+        self.pb_b00.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b00.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b00.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b00.setObjectName("pb_b00")
+        self.gridLayout.addWidget(self.pb_b00, 5, 1, 2, 1)
+        self.pb_b04 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b04.sizePolicy().hasHeightForWidth())
+        self.pb_b04.setSizePolicy(sizePolicy)
+        self.pb_b04.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b04.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b04.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b04.setObjectName("pb_b04")
+        self.gridLayout.addWidget(self.pb_b04, 5, 5, 2, 1)
+        self.label = QtWidgets.QLabel(Dialog)
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.label.setFont(font)
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setObjectName("label")
+        self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
+        self.pb_a07 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a07.sizePolicy().hasHeightForWidth())
+        self.pb_a07.setSizePolicy(sizePolicy)
+        self.pb_a07.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a07.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a07.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a07.setObjectName("pb_a07")
+        self.gridLayout.addWidget(self.pb_a07, 0, 8, 2, 1)
+        self.pb_a15 = QtWidgets.QPushButton(Dialog)
+        self.pb_a15.setEnabled(True)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a15.sizePolicy().hasHeightForWidth())
+        self.pb_a15.setSizePolicy(sizePolicy)
+        self.pb_a15.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a15.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a15.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a15.setObjectName("pb_a15")
+        self.gridLayout.addWidget(self.pb_a15, 2, 1, 2, 1)
+        self.label_2 = QtWidgets.QLabel(Dialog)
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.label_2.setFont(font)
+        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_2.setObjectName("label_2")
+        self.gridLayout.addWidget(self.label_2, 5, 0, 1, 1)
+        self.pb_a10 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_a10.sizePolicy().hasHeightForWidth())
+        self.pb_a10.setSizePolicy(sizePolicy)
+        self.pb_a10.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_a10.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_a10.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_a10.setObjectName("pb_a10")
+        self.gridLayout.addWidget(self.pb_a10, 2, 6, 2, 1)
+        self.pb_b13 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b13.sizePolicy().hasHeightForWidth())
+        self.pb_b13.setSizePolicy(sizePolicy)
+        self.pb_b13.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b13.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b13.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b13.setObjectName("pb_b13")
+        self.gridLayout.addWidget(self.pb_b13, 7, 3, 2, 1)
+        self.label_7 = QtWidgets.QLabel(Dialog)
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.label_7.setFont(font)
+        self.label_7.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_7.setObjectName("label_7")
+        self.gridLayout.addWidget(self.label_7, 6, 9, 1, 1)
+        self.pb_b14 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b14.sizePolicy().hasHeightForWidth())
+        self.pb_b14.setSizePolicy(sizePolicy)
+        self.pb_b14.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b14.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b14.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b14.setObjectName("pb_b14")
+        self.gridLayout.addWidget(self.pb_b14, 7, 2, 2, 1)
+        self.pb_b12 = QtWidgets.QPushButton(Dialog)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pb_b12.sizePolicy().hasHeightForWidth())
+        self.pb_b12.setSizePolicy(sizePolicy)
+        self.pb_b12.setMaximumSize(QtCore.QSize(60, 60))
+        self.pb_b12.setBaseSize(QtCore.QSize(60, 60))
+        self.pb_b12.setStyleSheet("QPushButton {\n"
+"color: #333;\n"
+"border: 2px solid #555;\n"
+"border-radius: 30px;\n"
+"border-style: outset;\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+");\n"
+"padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background: qradialgradient(\n"
+"cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+");\n"
+"}")
+        self.pb_b12.setObjectName("pb_b12")
+        self.gridLayout.addWidget(self.pb_b12, 7, 4, 2, 1)
+        self.label_5 = QtWidgets.QLabel(Dialog)
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.label_5.setFont(font)
+        self.label_5.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_5.setObjectName("label_5")
+        self.gridLayout.addWidget(self.label_5, 2, 9, 1, 1)
+        self.label_8 = QtWidgets.QLabel(Dialog)
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.label_8.setFont(font)
+        self.label_8.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_8.setObjectName("label_8")
+        self.gridLayout.addWidget(self.label_8, 1, 9, 1, 1)
+        self.gridLayout_2.addLayout(self.gridLayout, 0, 0, 1, 1)
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
@@ -728,55 +1003,45 @@ class Ui_Dialog(object):
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
-        self.label_3.setText(_translate("Dialog", "0"))
-        self.pb_start.setText(_translate("Dialog", "Start"))
-        self.pb_b14.setText(_translate("Dialog", "0"))
-        self.pb_b07.setText(_translate("Dialog", "0"))
-        self.pb_b05.setText(_translate("Dialog", "0"))
-        self.label_6.setText(_translate("Dialog", "0"))
-        self.pb_a08.setText(_translate("Dialog", "0"))
-        self.pb_b13.setText(_translate("Dialog", "0"))
-        self.pb_b09.setText(_translate("Dialog", "0"))
-        self.pb_a15.setText(_translate("Dialog", "0"))
-        self.pb_b03.setText(_translate("Dialog", "0"))
-        self.pb_a00.setText(_translate("Dialog", "0"))
-        self.pb_a12.setText(_translate("Dialog", "0"))
-        self.pb_a10.setText(_translate("Dialog", "0"))
-        self.label_4.setText(_translate("Dialog", "0"))
-        self.pb_a09.setText(_translate("Dialog", "0"))
-        self.pb_a01.setText(_translate("Dialog", "0"))
-        self.pb_a04.setText(_translate("Dialog", "0"))
-        self.label.setText(_translate("Dialog", "Punkte"))
-        self.pb_b10.setText(_translate("Dialog", "0"))
-        self.pb_b11.setText(_translate("Dialog", "0"))
-        self.pb_b02.setText(_translate("Dialog", "0"))
-        self.pb_a02.setText(_translate("Dialog", "0"))
-        self.pb_a07.setText(_translate("Dialog", "0"))
-        self.pb_b12.setText(_translate("Dialog", "0"))
-        self.pb_b01.setText(_translate("Dialog", "0"))
-        self.pb_a06.setText(_translate("Dialog", "0"))
-        self.label_5.setText(_translate("Dialog", "0"))
-        self.pb_b04.setText(_translate("Dialog", "0"))
-        self.pb_a14.setText(_translate("Dialog", "0"))
-        self.pb_b06.setText(_translate("Dialog", "0"))
-        self.pb_b00.setText(_translate("Dialog", "0"))
-        self.label_2.setText(_translate("Dialog", "Punkte"))
-        self.label_8.setText(_translate("Dialog", "Steine"))
-        self.pb_a05.setText(_translate("Dialog", "0"))
-        self.pb_b08.setText(_translate("Dialog", "0"))
-        self.pb_a11.setText(_translate("Dialog", "0"))
-        self.pb_a03.setText(_translate("Dialog", "0"))
-        self.label_7.setText(_translate("Dialog", "Steine"))
         self.pb_a13.setText(_translate("Dialog", "0"))
+        self.pb_a08.setText(_translate("Dialog", "0"))
+        self.pb_b01.setText(_translate("Dialog", "0"))
+        self.pb_a03.setText(_translate("Dialog", "0"))
+        self.pb_a12.setText(_translate("Dialog", "0"))
+        self.label_6.setText(_translate("Dialog", "0"))
+        self.pb_b07.setText(_translate("Dialog", "0"))
+        self.pb_b02.setText(_translate("Dialog", "0"))
+        self.pb_a04.setText(_translate("Dialog", "0"))
+        self.pb_start.setText(_translate("Dialog", "Start"))
+        self.pb_b08.setText(_translate("Dialog", "0"))
         self.pb_b15.setText(_translate("Dialog", "0"))
         self.l_handstones.setText(_translate("Dialog", "0"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    Dialog = QtWidgets.QDialog()
-    ui = Ui_Dialog()
-    ui.setupUi(Dialog)
-    Dialog.show()
-    sys.exit(app.exec_())
+        self.pb_a11.setText(_translate("Dialog", "0"))
+        self.pb_b06.setText(_translate("Dialog", "0"))
+        self.pb_a00.setText(_translate("Dialog", "0"))
+        self.pb_a09.setText(_translate("Dialog", "0"))
+        self.pb_b09.setText(_translate("Dialog", "0"))
+        self.pb_b10.setText(_translate("Dialog", "0"))
+        self.pb_a06.setText(_translate("Dialog", "0"))
+        self.pb_b05.setText(_translate("Dialog", "0"))
+        self.pb_a02.setText(_translate("Dialog", "0"))
+        self.pb_a01.setText(_translate("Dialog", "0"))
+        self.pb_b03.setText(_translate("Dialog", "0"))
+        self.l_aWins.setText(_translate("Dialog", "0"))
+        self.pb_a14.setText(_translate("Dialog", "0"))
+        self.l_bWins.setText(_translate("Dialog", "0"))
+        self.pb_b11.setText(_translate("Dialog", "0"))
+        self.pb_a05.setText(_translate("Dialog", "0"))
+        self.pb_b00.setText(_translate("Dialog", "0"))
+        self.pb_b04.setText(_translate("Dialog", "0"))
+        self.label.setText(_translate("Dialog", "Punkte"))
+        self.pb_a07.setText(_translate("Dialog", "0"))
+        self.pb_a15.setText(_translate("Dialog", "0"))
+        self.label_2.setText(_translate("Dialog", "Punkte"))
+        self.pb_a10.setText(_translate("Dialog", "0"))
+        self.pb_b13.setText(_translate("Dialog", "0"))
+        self.label_7.setText(_translate("Dialog", "Steine"))
+        self.pb_b14.setText(_translate("Dialog", "0"))
+        self.pb_b12.setText(_translate("Dialog", "0"))
+        self.label_5.setText(_translate("Dialog", "0"))
+        self.label_8.setText(_translate("Dialog", "Steine"))
